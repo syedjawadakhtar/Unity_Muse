@@ -14,21 +14,10 @@
 
 Generated using Muse:
 
-1. | ![People Eating Pizza](/imgs/customers_eating_pizza.png) |
-   |:--:|
-   | *A table with customers eating pizza.* |
-
-2. | ![Robot Serving Pizza](/imgs/robot_pizza_maker.png) |
-   |:--:|
-   | *A full-body robot making pizza.* |
-
-3. | ![Pizza Oven](/imgs/pizza_machine.png) |
-   |:--:|
-   | *A pizza machine in a large restaurant.* |
-
-4. | ![Wall Texture](/imgs/wall_texture.png) |
-   |:--:|
-   | *A wall texture for a pizza restaurant.* |
+1. People eating the pizza {Prompt: A table with customers eating pizza}
+2. Robot serving pizza {Prompt: A full body robot with pizza maker}
+3. Oven making the pizzas {Prompt: a pizza machine in a big restaurant}
+4. Texture for the walls {Prompt: a wall for a pizza restaurant}
 
 ## Testing Muse Chat
 
