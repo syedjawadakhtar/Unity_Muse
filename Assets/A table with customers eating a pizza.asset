@@ -1,0 +1,1589 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a6b9796d1c0440eba061ace5e9dff6, type: 3}
+  m_Name: A table with customers eating a pizza
+  m_EditorClassIdentifier: 
+  assetsData:
+  - rid: 4328271124150092158
+  - rid: 4328271124150092165
+  - rid: 4328271124150092172
+  - rid: 4328271124150092179
+  - rid: 4328271124150092210
+  - rid: 4328271124150092217
+  - rid: 4328271124150092224
+  - rid: 4328271124150092231
+  - rid: 4328271124150092262
+  - rid: 4328271124150092269
+  - rid: 4328271124150092276
+  - rid: 4328271124150092283
+  - rid: 4328271124150092362
+  - rid: 4328271124150092369
+  - rid: 4328271124150092376
+  - rid: 4328271124150092383
+  currentMode: TextToSprite
+  m_Data:
+  - rid: 4328271124150092145
+  - rid: 4328271124150092146
+  - rid: 4328271124150092147
+  - rid: 4328271124150092148
+  - rid: 4328271124150092149
+  - rid: 4328271124150092150
+  - rid: 4328271124150092157
+  preRefinedArtifact:
+    rid: -2
+  refinedArtifact:
+    rid: -2
+  selectedArtifact:
+    rid: 4328271124150092376
+  m_Operators:
+  - rid: 4328271124150092151
+  - rid: 4328271124150092152
+  - rid: 4328271124150092153
+  - rid: 4328271124150092154
+  - rid: 4328271124150092155
+  - rid: 4328271124150092156
+  m_PreRefineOperators: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 4328271124150092145
+      type: {class: FeedbackManager, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_Liked:
+          m_Values: []
+        m_Disliked:
+          m_Values: []
+    - rid: 4328271124150092146
+      type: {class: DefaultStyleData, ns: Unity.Muse.Sprite.Data, asm: Unity.Muse.Sprite}
+    - rid: 4328271124150092147
+      type: {class: GenerateButtonData, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+    - rid: 4328271124150092148
+      type: {class: MainUI/UISize, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_NodeListWidth: 300
+        m_NodeListRefineWidth: 300
+        m_AssetListRefineWidth: 200
+    - rid: 4328271124150092149
+      type: {class: SessionData, ns: Unity.Muse.Sprite.Data, asm: Unity.Muse.Sprite}
+      data:
+        m_SessionId: 86bc77b6-4945-48a3-a861-9c009f6b5138
+        sessionLoaded: 
+    - rid: 4328271124150092150
+      type: {class: BookmarkManager, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_BookmarkedArtifacts:
+          m_Values: []
+        m_IsFilterEnabled: 0
+    - rid: 4328271124150092151
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092152
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - a pizza machine in a big restaurant
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092153
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 36888
+          - 0
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 0
+          - 
+          - 
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092154
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092155
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 4328271124150092156
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 86bc77b6-4945-48a3-a861-9c009f6b5138
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092157
+      type: {class: GenerateCountData, ns: Unity.Muse.Sprite.Data, asm: Unity.Muse.Sprite}
+      data:
+        m_Counter: 0
+    - rid: 4328271124150092158
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 4c8c44da-390b-47fc-9d0c-991746591862
+        Seed: 33095
+        m_Operators:
+        - rid: 4328271124150092159
+        - rid: 4328271124150092160
+        - rid: 4328271124150092161
+        - rid: 4328271124150092162
+        - rid: 4328271124150092163
+        - rid: 4328271124150092164
+        history:
+        - rid: 4328271124150092158
+        m_UnsafeContent: 1
+    - rid: 4328271124150092159
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092160
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - A table with customers eating a pizza
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092161
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 33095
+          - 4c8c44da-390b-47fc-9d0c-991746591862
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092162
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092163
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 4328271124150092164
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 86bc77b6-4945-48a3-a861-9c009f6b5138
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092165
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: e4efd831-65f6-405c-9f3b-ecc1a8db9951
+        Seed: 45019
+        m_Operators:
+        - rid: 4328271124150092166
+        - rid: 4328271124150092167
+        - rid: 4328271124150092168
+        - rid: 4328271124150092169
+        - rid: 4328271124150092170
+        - rid: 4328271124150092171
+        history:
+        - rid: 4328271124150092165
+        m_UnsafeContent: 0
+    - rid: 4328271124150092166
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092167
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - A table with customers eating a pizza
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092168
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 45019
+          - e4efd831-65f6-405c-9f3b-ecc1a8db9951
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092169
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092170
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 4328271124150092171
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 86bc77b6-4945-48a3-a861-9c009f6b5138
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092172
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 96df8fc4-4af7-4b26-976e-fee5c7da1148
+        Seed: 48326
+        m_Operators:
+        - rid: 4328271124150092173
+        - rid: 4328271124150092174
+        - rid: 4328271124150092175
+        - rid: 4328271124150092176
+        - rid: 4328271124150092177
+        - rid: 4328271124150092178
+        history:
+        - rid: 4328271124150092172
+        m_UnsafeContent: 0
+    - rid: 4328271124150092173
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092174
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - A table with customers eating a pizza
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092175
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 48326
+          - 96df8fc4-4af7-4b26-976e-fee5c7da1148
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092176
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092177
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 4328271124150092178
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 86bc77b6-4945-48a3-a861-9c009f6b5138
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092179
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: ac712a4d-912c-4876-8a66-465a5bb506cd
+        Seed: 35980
+        m_Operators:
+        - rid: 4328271124150092180
+        - rid: 4328271124150092181
+        - rid: 4328271124150092182
+        - rid: 4328271124150092183
+        - rid: 4328271124150092184
+        - rid: 4328271124150092185
+        history:
+        - rid: 4328271124150092179
+        m_UnsafeContent: 0
+    - rid: 4328271124150092180
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092181
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - A table with customers eating a pizza
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092182
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 35980
+          - ac712a4d-912c-4876-8a66-465a5bb506cd
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092183
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092184
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 4328271124150092185
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 86bc77b6-4945-48a3-a861-9c009f6b5138
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092210
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 455b7b8c-8550-484c-8bc9-4859291502d4
+        Seed: 54277
+        m_Operators:
+        - rid: 4328271124150092211
+        - rid: 4328271124150092212
+        - rid: 4328271124150092213
+        - rid: 4328271124150092214
+        - rid: 4328271124150092215
+        - rid: 4328271124150092216
+        history:
+        - rid: 4328271124150092210
+        m_UnsafeContent: 0
+    - rid: 4328271124150092211
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092212
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - A table with customers eating a pizza
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092213
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 54277
+          - 455b7b8c-8550-484c-8bc9-4859291502d4
+          - 0
+          - 79f1207b-200d-4c01-8326-e3dd05052ff5
+          - 0
+          - 2277ba4c-5f82-4b86-8184-a2364b1942bf
+          - Pizza Restaurant
+          - An automated pizza Restaurant style with customers fed with pizza robots
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092214
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092215
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 4328271124150092216
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 86bc77b6-4945-48a3-a861-9c009f6b5138
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092217
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 95a0de03-4a84-438a-ad93-b1d33c81cc02
+        Seed: 56768
+        m_Operators:
+        - rid: 4328271124150092218
+        - rid: 4328271124150092219
+        - rid: 4328271124150092220
+        - rid: 4328271124150092221
+        - rid: 4328271124150092222
+        - rid: 4328271124150092223
+        history:
+        - rid: 4328271124150092217
+        m_UnsafeContent: 1
+    - rid: 4328271124150092218
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092219
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - A table with customers eating a pizza
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092220
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 56768
+          - 95a0de03-4a84-438a-ad93-b1d33c81cc02
+          - 0
+          - 79f1207b-200d-4c01-8326-e3dd05052ff5
+          - 0
+          - 2277ba4c-5f82-4b86-8184-a2364b1942bf
+          - Pizza Restaurant
+          - An automated pizza Restaurant style with customers fed with pizza robots
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092221
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092222
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 4328271124150092223
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 86bc77b6-4945-48a3-a861-9c009f6b5138
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092224
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: cc7f34d4-68be-4e1e-a20c-9f2dbc72eda5
+        Seed: 24207
+        m_Operators:
+        - rid: 4328271124150092225
+        - rid: 4328271124150092226
+        - rid: 4328271124150092227
+        - rid: 4328271124150092228
+        - rid: 4328271124150092229
+        - rid: 4328271124150092230
+        history:
+        - rid: 4328271124150092224
+        m_UnsafeContent: 0
+    - rid: 4328271124150092225
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092226
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - A table with customers eating a pizza
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092227
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 24207
+          - cc7f34d4-68be-4e1e-a20c-9f2dbc72eda5
+          - 0
+          - 79f1207b-200d-4c01-8326-e3dd05052ff5
+          - 0
+          - 2277ba4c-5f82-4b86-8184-a2364b1942bf
+          - Pizza Restaurant
+          - An automated pizza Restaurant style with customers fed with pizza robots
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092228
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092229
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 4328271124150092230
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 86bc77b6-4945-48a3-a861-9c009f6b5138
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092231
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 1edd5c11-db2c-4684-bde2-0f7b7b884f87
+        Seed: 16988
+        m_Operators:
+        - rid: 4328271124150092232
+        - rid: 4328271124150092233
+        - rid: 4328271124150092234
+        - rid: 4328271124150092235
+        - rid: 4328271124150092236
+        - rid: 4328271124150092237
+        history:
+        - rid: 4328271124150092231
+        m_UnsafeContent: 0
+    - rid: 4328271124150092232
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092233
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - A table with customers eating a pizza
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092234
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 16988
+          - 1edd5c11-db2c-4684-bde2-0f7b7b884f87
+          - 0
+          - 79f1207b-200d-4c01-8326-e3dd05052ff5
+          - 0
+          - 2277ba4c-5f82-4b86-8184-a2364b1942bf
+          - Pizza Restaurant
+          - An automated pizza Restaurant style with customers fed with pizza robots
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092235
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092236
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 4328271124150092237
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 86bc77b6-4945-48a3-a861-9c009f6b5138
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092262
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 1848e83a-ede7-4a6c-a3c7-5027611f0a92
+        Seed: 1792
+        m_Operators:
+        - rid: 4328271124150092263
+        - rid: 4328271124150092264
+        - rid: 4328271124150092265
+        - rid: 4328271124150092266
+        - rid: 4328271124150092267
+        - rid: 4328271124150092268
+        history:
+        - rid: 4328271124150092262
+        m_UnsafeContent: 0
+    - rid: 4328271124150092263
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092264
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - A table with customers eating a pizza
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092265
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 1792
+          - 1848e83a-ede7-4a6c-a3c7-5027611f0a92
+          - 0
+          - 79f1207b-200d-4c01-8326-e3dd05052ff5
+          - 0
+          - 2277ba4c-5f82-4b86-8184-a2364b1942bf
+          - Pizza Restaurant
+          - An automated pizza Restaurant style with customers fed with pizza robots
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092266
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092267
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 4328271124150092268
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 86bc77b6-4945-48a3-a861-9c009f6b5138
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092269
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 49bf1b92-6061-46c2-95d6-df75c33a87b0
+        Seed: 44969
+        m_Operators:
+        - rid: 4328271124150092270
+        - rid: 4328271124150092271
+        - rid: 4328271124150092272
+        - rid: 4328271124150092273
+        - rid: 4328271124150092274
+        - rid: 4328271124150092275
+        history:
+        - rid: 4328271124150092269
+        m_UnsafeContent: 0
+    - rid: 4328271124150092270
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092271
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - A table with customers eating a pizza
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092272
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 44969
+          - 49bf1b92-6061-46c2-95d6-df75c33a87b0
+          - 0
+          - 79f1207b-200d-4c01-8326-e3dd05052ff5
+          - 0
+          - 2277ba4c-5f82-4b86-8184-a2364b1942bf
+          - Pizza Restaurant
+          - An automated pizza Restaurant style with customers fed with pizza robots
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092273
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092274
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 4328271124150092275
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 86bc77b6-4945-48a3-a861-9c009f6b5138
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092276
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: c770dae2-cd26-47be-9705-d41ac7e1f566
+        Seed: 25187
+        m_Operators:
+        - rid: 4328271124150092277
+        - rid: 4328271124150092278
+        - rid: 4328271124150092279
+        - rid: 4328271124150092280
+        - rid: 4328271124150092281
+        - rid: 4328271124150092282
+        history:
+        - rid: 4328271124150092276
+        m_UnsafeContent: 1
+    - rid: 4328271124150092277
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092278
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - A table with customers eating a pizza
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092279
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 25187
+          - c770dae2-cd26-47be-9705-d41ac7e1f566
+          - 0
+          - 79f1207b-200d-4c01-8326-e3dd05052ff5
+          - 0
+          - 2277ba4c-5f82-4b86-8184-a2364b1942bf
+          - Pizza Restaurant
+          - An automated pizza Restaurant style with customers fed with pizza robots
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092280
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092281
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 4328271124150092282
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 86bc77b6-4945-48a3-a861-9c009f6b5138
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092283
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 9d6e53bb-424f-43e7-963c-2c68a01675ff
+        Seed: 17464
+        m_Operators:
+        - rid: 4328271124150092284
+        - rid: 4328271124150092285
+        - rid: 4328271124150092286
+        - rid: 4328271124150092287
+        - rid: 4328271124150092288
+        - rid: 4328271124150092289
+        history:
+        - rid: 4328271124150092283
+        m_UnsafeContent: 0
+    - rid: 4328271124150092284
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092285
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - A table with customers eating a pizza
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092286
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 17464
+          - 9d6e53bb-424f-43e7-963c-2c68a01675ff
+          - 0
+          - 79f1207b-200d-4c01-8326-e3dd05052ff5
+          - 0
+          - 2277ba4c-5f82-4b86-8184-a2364b1942bf
+          - Pizza Restaurant
+          - An automated pizza Restaurant style with customers fed with pizza robots
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092287
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092288
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 4328271124150092289
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 86bc77b6-4945-48a3-a861-9c009f6b5138
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092362
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 785e1984-dd67-45c7-a7ad-72c294831120
+        Seed: 29131
+        m_Operators:
+        - rid: 4328271124150092363
+        - rid: 4328271124150092364
+        - rid: 4328271124150092365
+        - rid: 4328271124150092366
+        - rid: 4328271124150092367
+        - rid: 4328271124150092368
+        history:
+        - rid: 4328271124150092362
+        m_UnsafeContent: 0
+    - rid: 4328271124150092363
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092364
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - a pizza machine in a big restaurant
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092365
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 29131
+          - 785e1984-dd67-45c7-a7ad-72c294831120
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092366
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092367
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 4328271124150092368
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 86bc77b6-4945-48a3-a861-9c009f6b5138
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092369
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: f23f10ed-acd8-44d0-89b2-fa50b1db4577
+        Seed: 61619
+        m_Operators:
+        - rid: 4328271124150092370
+        - rid: 4328271124150092371
+        - rid: 4328271124150092372
+        - rid: 4328271124150092373
+        - rid: 4328271124150092374
+        - rid: 4328271124150092375
+        history:
+        - rid: 4328271124150092369
+        m_UnsafeContent: 0
+    - rid: 4328271124150092370
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092371
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - a pizza machine in a big restaurant
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092372
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 61619
+          - f23f10ed-acd8-44d0-89b2-fa50b1db4577
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092373
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092374
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 4328271124150092375
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 86bc77b6-4945-48a3-a861-9c009f6b5138
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092376
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: af6073b0-d8be-4f8e-acf5-51db6b19054c
+        Seed: 15645
+        m_Operators:
+        - rid: 4328271124150092377
+        - rid: 4328271124150092378
+        - rid: 4328271124150092379
+        - rid: 4328271124150092380
+        - rid: 4328271124150092381
+        - rid: 4328271124150092382
+        history:
+        - rid: 4328271124150092376
+        m_UnsafeContent: 0
+    - rid: 4328271124150092377
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092378
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - a pizza machine in a big restaurant
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092379
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 15645
+          - af6073b0-d8be-4f8e-acf5-51db6b19054c
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092380
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092381
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 4328271124150092382
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 86bc77b6-4945-48a3-a861-9c009f6b5138
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092383
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: dc1dba17-f41b-4695-83ef-0553613941b7
+        Seed: 51376
+        m_Operators:
+        - rid: 4328271124150092384
+        - rid: 4328271124150092385
+        - rid: 4328271124150092386
+        - rid: 4328271124150092387
+        - rid: 4328271124150092388
+        - rid: 4328271124150092389
+        history:
+        - rid: 4328271124150092383
+        m_UnsafeContent: 0
+    - rid: 4328271124150092384
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092385
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - a pizza machine in a big restaurant
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 4328271124150092386
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 51376
+          - dc1dba17-f41b-4695-83ef-0553613941b7
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092387
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 4328271124150092388
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 4328271124150092389
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 86bc77b6-4945-48a3-a861-9c009f6b5138
+          enabled: 0
+          assembly: Unity.Muse.Sprite

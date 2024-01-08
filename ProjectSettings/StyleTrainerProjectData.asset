@@ -1,0 +1,656 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07c9b2c97f84356bb2bfac29363e611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StyleTrainerData:
+    rid: 4328271124150091776
+  m_DefaultStyleData:
+    rid: 4328271124150091777
+  m_DefaultStyleVersion: 2023111600
+  m_DefaultStyles:
+  - rid: 4328271124150091826
+  m_AssetPath: 
+  m_PreviousProjectIDs: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 4047051784544846235
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 5cc104e0-423a-473e-8034-b9d346cb2357
+        m_State: 1
+        m_Disposing: 0
+        m_IsFallback: 0
+        m_Thumbnail:
+          rid: -2
+        m_Visible: 1
+        selectedCheckPointGUID: 00000000-0000-0000-0000-000000000000
+        m_FavoriteCheckPointGUID: active
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: 11000000-0000-0000-0000-000000000011
+        m_TrainingSteps: 2000
+        m_CheckPoints:
+        - m_Guid: 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 11000000-0000-0000-0000-000000000011
+          m_Name: Happy Harvest [Orion V4 2000]
+          m_Description: 8 Nov 2023
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 3e758588-960f-44f5-865a-d5eaa1b1dec4
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 11000000-0000-0000-0000-000000000011
+          m_ValidationImagesData:
+          - m_Guid: 96b39a19-2d3e-4bc5-aa3c-38667ed6eba5
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 96b39a19-2d3e-4bc5-aa3c-38667ed6eba5
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A chicken
+          - m_Guid: 05de072c-ebbc-43d7-886b-7ac4f9cbd079
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 05de072c-ebbc-43d7-886b-7ac4f9cbd079
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A cow
+          - m_Guid: 2dbfc212-f87b-45f9-a05a-06368e190ca1
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 2dbfc212-f87b-45f9-a05a-06368e190ca1
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A dog
+          - m_Guid: e0139464-a868-402a-95b8-b4c26685a97b
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: e0139464-a868-402a-95b8-b4c26685a97b
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A farmer
+          - m_Guid: 4421bead-a3ff-4c09-9514-61e127eb470e
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 4421bead-a3ff-4c09-9514-61e127eb470e
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A pine tree
+          m_TrainingSteps: 1200
+        m_SampleOutputPrompts:
+        - A chicken
+        - A cow
+        - A dog
+        - A farmer
+        - A pine tree
+        m_TrainingSetData:
+        - m_Guid: 3e758588-960f-44f5-865a-d5eaa1b1dec4
+          m_State: 5
+          m_Disposing: 0
+          m_TrainingSet: []
+          m_ProjectID: 11000000-0000-0000-0000-000000000011
+        m_Name: Default
+        m_Description: Default Style
+    - rid: 4328271124150091776
+      type: {class: StyleTrainerData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+        m_State: 1
+        m_Disposing: 0
+        m_Styles:
+        - rid: 4328271124150091827
+        m_Version: 202231001
+    - rid: 4328271124150091777
+      type: {class: StyleTrainerData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 11000000-0000-0000-0000-000000000011
+        m_State: 1
+        m_Disposing: 0
+        m_Styles:
+        - rid: 4047051784544846235
+        m_Version: 202231001
+    - rid: 4328271124150091826
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 00000000-0000-0000-0000-000000000000
+        m_State: 1
+        m_Disposing: 0
+        m_IsFallback: 1
+        m_Thumbnail:
+          rid: -2
+        m_Visible: 0
+        selectedCheckPointGUID: 00000000-0000-0000-0000-000000000000
+        m_FavoriteCheckPointGUID: active
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: 00000000-0000-0000-0000-000000000000
+        m_TrainingSteps: 2000
+        m_CheckPoints:
+        - m_Guid: 00000000-0000-0000-0000-000000000000
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 00000000-0000-0000-0000-000000000000
+          m_Name: Default
+          m_Description: Default style.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 
+            m_State: 0
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 
+          m_ValidationImagesData: []
+          m_TrainingSteps: 2000
+        m_SampleOutputPrompts: []
+        m_TrainingSetData: []
+        m_Name: Default
+        m_Description: Default style.
+    - rid: 4328271124150091827
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 79f1207b-200d-4c01-8326-e3dd05052ff5
+        m_State: 1
+        m_Disposing: 0
+        m_IsFallback: 0
+        m_Thumbnail:
+          rid: 4328271124150091829
+        m_Visible: 1
+        selectedCheckPointGUID: 2277ba4c-5f82-4b86-8184-a2364b1942bf
+        m_FavoriteCheckPointGUID: 00000000-0000-0000-0000-000000000000
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+        m_TrainingSteps: 2000
+        m_CheckPoints:
+        - m_Guid: 09d29a2e-8596-41d6-a56a-cde2e950d680
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_Name: Pizza Restaurant
+          m_Description: An automated pizza Restaurant style with customers fed with
+            pizza robots
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: d0929504-dfc4-437a-8b7f-f4f3cf8a24cf
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_ValidationImagesData:
+          - m_Guid: da081313-8b55-42f3-8dd1-309011925218
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: da081313-8b55-42f3-8dd1-309011925218
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza with robot and human
+          - m_Guid: b54a2b3c-3bf5-4057-a5d0-5e4423cb3351
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: b54a2b3c-3bf5-4057-a5d0-5e4423cb3351
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza making robot
+          - m_Guid: a965fdb5-d827-4b77-b9ef-2403084e27ad
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: a965fdb5-d827-4b77-b9ef-2403084e27ad
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Robot standing and taking order of pizza with customers
+          m_TrainingSteps: 200
+        - m_Guid: 523dc063-9c83-4284-a0fc-13d5eb89c86b
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_Name: Pizza Restaurant
+          m_Description: An automated pizza Restaurant style with customers fed with
+            pizza robots
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: d0929504-dfc4-437a-8b7f-f4f3cf8a24cf
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_ValidationImagesData:
+          - m_Guid: 3de5c432-09f6-4998-ad21-01349582fe78
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 3de5c432-09f6-4998-ad21-01349582fe78
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza with robot and human
+          - m_Guid: 7ed135bc-a96c-4158-9dc9-b873e9c2f1f6
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 7ed135bc-a96c-4158-9dc9-b873e9c2f1f6
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza making robot
+          - m_Guid: 23cc8b35-8fa2-4ca6-8197-cd55774b8bc6
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 23cc8b35-8fa2-4ca6-8197-cd55774b8bc6
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Robot standing and taking order of pizza with customers
+          m_TrainingSteps: 400
+        - m_Guid: a6c39b90-d3bf-4026-b12d-3cdf98bbd435
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_Name: Pizza Restaurant
+          m_Description: An automated pizza Restaurant style with customers fed with
+            pizza robots
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: d0929504-dfc4-437a-8b7f-f4f3cf8a24cf
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_ValidationImagesData:
+          - m_Guid: 28139079-0a3b-428f-bbf8-96d87a909a76
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 28139079-0a3b-428f-bbf8-96d87a909a76
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza with robot and human
+          - m_Guid: 319b6c35-e14c-493d-8527-65c74c1a6bbe
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 319b6c35-e14c-493d-8527-65c74c1a6bbe
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza making robot
+          - m_Guid: cc7e21e5-7394-4883-8e16-c632f09c8908
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: cc7e21e5-7394-4883-8e16-c632f09c8908
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Robot standing and taking order of pizza with customers
+          m_TrainingSteps: 600
+        - m_Guid: 96207db5-6877-4447-bf04-e423e53f1f46
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_Name: Pizza Restaurant
+          m_Description: An automated pizza Restaurant style with customers fed with
+            pizza robots
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: d0929504-dfc4-437a-8b7f-f4f3cf8a24cf
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_ValidationImagesData:
+          - m_Guid: bda5dba0-939c-499c-b4f8-f42aa67885f2
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: bda5dba0-939c-499c-b4f8-f42aa67885f2
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza with robot and human
+          - m_Guid: 8f88cd8c-223c-4e0a-a6de-b288bff1ca8f
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 8f88cd8c-223c-4e0a-a6de-b288bff1ca8f
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza making robot
+          - m_Guid: 98c41066-f4cd-4e0b-999e-924edaf50a21
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 98c41066-f4cd-4e0b-999e-924edaf50a21
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Robot standing and taking order of pizza with customers
+          m_TrainingSteps: 800
+        - m_Guid: a84f7f09-5d37-43b9-87c6-9d5df01fdd74
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_Name: Pizza Restaurant
+          m_Description: An automated pizza Restaurant style with customers fed with
+            pizza robots
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: d0929504-dfc4-437a-8b7f-f4f3cf8a24cf
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_ValidationImagesData:
+          - m_Guid: 418a6b6a-8263-40b7-be07-5fd60a263b82
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 418a6b6a-8263-40b7-be07-5fd60a263b82
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza with robot and human
+          - m_Guid: c340bf91-02c4-4bff-9264-a3500589c485
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: c340bf91-02c4-4bff-9264-a3500589c485
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza making robot
+          - m_Guid: 945c925b-17a9-428f-b706-f52fb21a13ed
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 945c925b-17a9-428f-b706-f52fb21a13ed
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Robot standing and taking order of pizza with customers
+          m_TrainingSteps: 1000
+        - m_Guid: fa03b1a4-b6bf-45aa-b3a2-a769115e7d19
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_Name: Pizza Restaurant
+          m_Description: An automated pizza Restaurant style with customers fed with
+            pizza robots
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: d0929504-dfc4-437a-8b7f-f4f3cf8a24cf
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_ValidationImagesData:
+          - m_Guid: cd690386-9700-42b1-8acd-ab61afe1c4aa
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: cd690386-9700-42b1-8acd-ab61afe1c4aa
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza with robot and human
+          - m_Guid: c7fce5d0-e7f0-4ab0-824f-eb7752f263e3
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: c7fce5d0-e7f0-4ab0-824f-eb7752f263e3
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza making robot
+          - m_Guid: 33313e34-fbcc-4419-a788-7e8596152d38
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 33313e34-fbcc-4419-a788-7e8596152d38
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Robot standing and taking order of pizza with customers
+          m_TrainingSteps: 1200
+        - m_Guid: 730e3417-48ca-4482-8113-58d82f909540
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_Name: Pizza Restaurant
+          m_Description: An automated pizza Restaurant style with customers fed with
+            pizza robots
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: d0929504-dfc4-437a-8b7f-f4f3cf8a24cf
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_ValidationImagesData:
+          - m_Guid: 85f0b980-2672-462c-bc50-340f6236c48b
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 85f0b980-2672-462c-bc50-340f6236c48b
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza with robot and human
+          - m_Guid: 02b6b8be-fb40-4fec-bf3e-d8be9f316bbc
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 02b6b8be-fb40-4fec-bf3e-d8be9f316bbc
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza making robot
+          - m_Guid: da625997-5e31-4689-8ae1-59c97a768c07
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: da625997-5e31-4689-8ae1-59c97a768c07
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Robot standing and taking order of pizza with customers
+          m_TrainingSteps: 1400
+        - m_Guid: 3a5e2d41-9c05-4315-b22f-bc18095495ea
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_Name: Pizza Restaurant
+          m_Description: An automated pizza Restaurant style with customers fed with
+            pizza robots
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: d0929504-dfc4-437a-8b7f-f4f3cf8a24cf
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_ValidationImagesData:
+          - m_Guid: 5aec7efa-4195-4b02-ad18-558d1443ff22
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 5aec7efa-4195-4b02-ad18-558d1443ff22
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza with robot and human
+          - m_Guid: c8035187-ef58-458a-ba3a-a29cca49f7c5
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: c8035187-ef58-458a-ba3a-a29cca49f7c5
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza making robot
+          - m_Guid: 914e6fa7-ed4b-4717-ab4e-19ae99e6b3ba
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 914e6fa7-ed4b-4717-ab4e-19ae99e6b3ba
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Robot standing and taking order of pizza with customers
+          m_TrainingSteps: 1600
+        - m_Guid: 244343c3-aa31-4ff8-834b-3ec018e8e8f7
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_Name: Pizza Restaurant
+          m_Description: An automated pizza Restaurant style with customers fed with
+            pizza robots
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: d0929504-dfc4-437a-8b7f-f4f3cf8a24cf
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_ValidationImagesData:
+          - m_Guid: 2df619b3-067b-4fad-b099-21174516230d
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 2df619b3-067b-4fad-b099-21174516230d
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza with robot and human
+          - m_Guid: c7b48f01-8fa5-4d68-bca3-74cc3e956e34
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: c7b48f01-8fa5-4d68-bca3-74cc3e956e34
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza making robot
+          - m_Guid: 937b7585-f79d-4c0c-864e-022b19b4b75c
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 937b7585-f79d-4c0c-864e-022b19b4b75c
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Robot standing and taking order of pizza with customers
+          m_TrainingSteps: 1800
+        - m_Guid: 2277ba4c-5f82-4b86-8184-a2364b1942bf
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_Name: Pizza Restaurant
+          m_Description: An automated pizza Restaurant style with customers fed with
+            pizza robots
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: d0929504-dfc4-437a-8b7f-f4f3cf8a24cf
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+          m_ValidationImagesData:
+          - m_Guid: 8a896cbf-c7c6-4a33-954f-86b4177cecf7
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 8a896cbf-c7c6-4a33-954f-86b4177cecf7
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza with robot and human
+          - m_Guid: 3f66dae2-944c-45bf-813a-2215a67e090d
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 3f66dae2-944c-45bf-813a-2215a67e090d
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Pizza making robot
+          - m_Guid: 371d6c0c-7e10-4c99-871f-3beab9f0692b
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 371d6c0c-7e10-4c99-871f-3beab9f0692b
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: Robot standing and taking order of pizza with customers
+          m_TrainingSteps: 2000
+        m_SampleOutputPrompts:
+        - Pizza with robot and human
+        - Pizza making robot
+        - Robot standing and taking order of pizza with customers
+        m_TrainingSetData:
+        - m_Guid: d0929504-dfc4-437a-8b7f-f4f3cf8a24cf
+          m_State: 1
+          m_Disposing: 0
+          m_TrainingSet:
+          - m_Guid: 7aac4aa3-83d1-455d-9cca-9b07a7a64ece
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 4328271124150092391
+          - m_Guid: 89b748de-ba60-4783-9486-e289b941714d
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 4328271124150092392
+          - m_Guid: d73eb1cc-3811-48f5-93f9-26f0201a43f0
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 4328271124150092393
+          - m_Guid: 6058d323-4a75-4432-b718-516d8d630108
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 4328271124150092394
+          - m_Guid: 7a4dab97-9f3f-414c-befd-4180a0a73d3b
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 4328271124150092395
+          m_ProjectID: 9ccbdcdf-9f88-40ed-a8d7-c99144c02f69
+        m_Name: Pizza Restaurant
+        m_Description: An automated pizza Restaurant style with customers fed with
+          pizza robots
+    - rid: 4328271124150091829
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 00000000-0000-0000-0000-000000000000
+        m_State: 3
+        m_Disposing: 1
+    - rid: 4328271124150092391
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 7aac4aa3-83d1-455d-9cca-9b07a7a64ece
+        m_State: 1
+        m_Disposing: 1
+    - rid: 4328271124150092392
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 89b748de-ba60-4783-9486-e289b941714d
+        m_State: 1
+        m_Disposing: 1
+    - rid: 4328271124150092393
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: d73eb1cc-3811-48f5-93f9-26f0201a43f0
+        m_State: 1
+        m_Disposing: 1
+    - rid: 4328271124150092394
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 6058d323-4a75-4432-b718-516d8d630108
+        m_State: 1
+        m_Disposing: 1
+    - rid: 4328271124150092395
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 7a4dab97-9f3f-414c-befd-4180a0a73d3b
+        m_State: 5
+        m_Disposing: 1
